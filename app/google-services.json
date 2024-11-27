@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368572080860",
+    "project_id": "aeropa-5cde5",
+    "storage_bucket": "aeropa-5cde5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368572080860:android:ad91d5508cc6a37edb0a19",
+        "android_client_info": {
+          "package_name": "com.example.aeropa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQrSv1YEJocqh3q-OAcGqdoAa1CveL-mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

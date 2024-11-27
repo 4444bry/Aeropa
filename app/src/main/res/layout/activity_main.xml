@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Tempat untuk menampilkan Fragment -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="70dp"
+        />
+
+    <!-- ChipNavigationBar di bagian bawah -->
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/chipNav_Main_CNB"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/darkblue"
+        android:elevation="3dp"
+        android:padding="4dp"
+        app:cnb_iconSize="20dp"
+        app:cnb_menuResource="@menu/menu_bottom"
+        app:cnb_orientationMode="horizontal"
+        app:cnb_unselectedColor="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>
